@@ -1,38 +1,83 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Montserrat&display=swap');
+  
+/*nav*/
+.nav-title{
+  font-family: 'Comfortaa', cursive;
+  font-weight: 400;
+  font-size: 28.4444px;
+  line-height: 32px;
+  color: #000000;
+  font-style: normal;
+  text-decoration: none;
+}
+.nav-title img{
+  width: 70px;
+  height: 70px;
+  padding-bottom: 10px;
+}
+.container-nav{
+  padding-top: 10px;
+  display: flex;
+  flex-direction: row;
+}
+.nav1 a{
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 24px;
+  text-align: right;
+  letter-spacing: -0.015em;
+  color: #000;
+  text-decoration: none;
+  margin: 0 40px;
+}
+.nav1 a:hover{
+  color: rgb(237, 161, 31);
+}
+.active{
+  border-bottom: 2px solid black;
+}
+.division{
+  margin: 0 50px;
+  color:rgba(0, 0, 0, 0.5);
+}
+
+/*footer*/
+footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+footer p{
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: -0.015em;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+/*main*/
+.main-home{
+  margin: 80px 320px;
+}
+.main-description, .main-home{
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 400;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.main-title{
+  font-size: 48px;
+  line-height: 72px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.main-description{
+  font-size: 36px;
+  line-height: 50px;
+  letter-spacing: -0.015em;
+  color: rgba(0, 0, 0, 0.8);
+  margin-top: 50px;
 }
