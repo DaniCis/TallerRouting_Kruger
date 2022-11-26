@@ -4,7 +4,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import HomePage from "./pages/Homepage";
 import ImcCalculator from "./pages/ImcCalculator";
 import AgeCalculator from "./pages/AgeCalculator";
-import Clockpage from "./pages/Clockpage"
+import Clockpage from "./pages/Clockpage";
+import AboutPage from "./pages/Aboutpage";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route path="/imc" element={<ImcCalculator />}></Route>
           <Route path="/age" element={<AgeCalculator />}></Route>
           <Route  path="/clock" element={<Clockpage />}></Route>
+          <Route path="/about" element={<AboutPage />} ></Route>
         </Routes>
       </Router>
     </div>
