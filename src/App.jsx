@@ -6,6 +6,7 @@ import ImcCalculator from "./pages/ImcCalculator";
 import AgeCalculator from "./pages/AgeCalculator";
 import Clockpage from "./pages/Clockpage";
 import AboutPage from "./pages/Aboutpage";
+import Contactpage from "./pages/Contactpage";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path="/age" element={<AgeCalculator />}></Route>
           <Route  path="/clock" element={<Clockpage />}></Route>
           <Route path="/about" element={<AboutPage />} ></Route>
+          <Route path="/contact" element={<Contactpage />} ></Route>
         </Routes>
       </Router>
     </div>
