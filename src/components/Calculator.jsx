@@ -1,6 +1,9 @@
 import { useState } from "react";
 import Card from "./Card";
 import Button from 'react-bootstrap/Button';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
 const Calculator = () =>{
     const [fechaNacimiento,setFecha] = useState();
@@ -55,17 +58,27 @@ const Calculator = () =>{
     }
 
     return (
-        <div className="contenedorPrincipal">
-            <div className="contenedorFecha">
-                <input className="input-fecha" type='date' onChange={obtenerFecha} pattern="\d{4}-\d{2}-\d{2}"></input>
-                <Button variant="light" onClick={calcularEdad}>Calculate</Button>
-            </div>
-            <div className="contenedorEdad">
-                <Card valor={year} unidad='years' />
-                <Card valor={month} unidad= 'months'/>
-                <Card valor={day} unidad='days' />
-            </div>
-        </div>
+        <Container className="contenedorPrincipal">
+            <Row className="contenedorFecha">
+                <Col xs={12} md={8}>
+                    <input className="input-fecha" type='date' onChange={obtenerFecha} pattern="\d{4}-\d{2}-\d{2}"></input>
+                </Col>
+                <Col xs={12} md={4}>
+                    <Button variant="light" onClick={calcularEdad}>Calculate</Button>
+                </Col>
+            </Row>
+            <Row className="contenedorEdad">
+                <Col xs={12} sm={6} md={4}>
+                    <Card valor={year} unidad='years' />
+                </Col>
+                <Col xs={12} sm={6} md={4}>
+                    <Card valor={month} unidad= 'months'/>
+                </Col>
+                <Col xs={12} sm={6} md={4}>
+                    <Card valor={day} unidad='days' />
+                </Col>
+            </Row>
+        </Container> 
     )
 }
 

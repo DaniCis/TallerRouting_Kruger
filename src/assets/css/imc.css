@@ -2,6 +2,7 @@
 .contenedor-imc{
     display: flex;
     justify-content: center;
+    margin-bottom: 175px;
   }
   .imc-card {
     width: 400px;

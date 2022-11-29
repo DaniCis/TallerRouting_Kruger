@@ -1,9 +1,17 @@
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+
 const Card = ({valor,unidad}) =>{
     return(
-        <div className="card-age">
-            <p className="card-numero">{valor}</p>
-            <p className="card-texto">{unidad}</p>
-        </div>
+        <Container>
+            <Row className="card-age">
+                <Col>
+                    <p className="card-numero">{valor}</p>
+                    <p className="card-texto">{unidad}</p>``
+                </Col>
+            </Row>
+        </Container>       
     )
 }
 

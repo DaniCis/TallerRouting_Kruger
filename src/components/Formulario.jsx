@@ -10,7 +10,7 @@ const Formulario = () =>{
             <div className='contenedor-contact'>
                 <Form className='contenedor-form'>
                     <Row>
-                        <Col>
+                        <Col >
                             <h3 className='form-title'>Let’s Connect!</h3>
                         </Col>
                     </Row>

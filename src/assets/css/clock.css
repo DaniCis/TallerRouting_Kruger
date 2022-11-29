@@ -1,7 +1,8 @@
 .contenedor-reloj{
   display: flex;
   justify-content: center;
-  margin-top: 90px;
+  margin-top: 110px;
+  margin-bottom: 100px;
 }
 .clock {
     width: 300px;
