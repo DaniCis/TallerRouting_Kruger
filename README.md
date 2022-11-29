@@ -2,7 +2,7 @@
 
 # Kruger Star Playground
 
-> Primer proyecto  Primer proyecto  Primer proyecto  Primer proyecto  Primer proyecto  Primer proyecto  Primer proyecto  Primer proyecto  Primer proyecto  Primer proyecto  Primer proyecto  Primer proyecto  Primer proyecto  Primer proyecto  Primer proyecto  Primer proyecto  Primer proyecto  Primer proyecto  Primer proyecto  Primer proyecto  Primer proyecto  Primer proyecto 
+> Portfolio project
 
 <img src="./src/assets/playground.png" height="300px">
 
@@ -10,12 +10,13 @@
 
 - JavaScript
 - React.js 18
+- React Bootstrap
 - Netlify 
 - HTML + CSS
 
 ## Live Demo
 
-[live demo link](https://kruger-star-playground-dc.netlify.app/)
+[Live demo link](https://kruger-star-playground-dc.netlify.app/)
 
 ## Run it locally
 
