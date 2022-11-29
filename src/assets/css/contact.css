@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Montserrat&display=swap');
+
+@media screen and (min-width: 1100px) {
+    .contenedor-contact{
+        margin: 30px 400px!important;
+    }
+}
+
+.contact-title{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 72px;
+    text-align: center;
+    letter-spacing: -0.015em;
+    color: #000000;
+    margin-top: 20px;
+}
+.contenedor-contact{
+    display: flex;
+    flex-direction: column;
+    margin: 30px 20px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+}
+.form-title{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -0.015em;
+    color: #000000;
+    margin-bottom: 30px;
+}
+.contenedor-form{
+    margin: 30px 30px;
+}
+.contenedor-form input{
+    margin-bottom: 30px;
+}
+.contenedor-form button{
+    margin-top: 20px;
+}
